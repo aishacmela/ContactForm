@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #F8F8F8;
+    text-align: center;
+}
+.container{
+    max-width: 800px;
+    display: block;
+    margin: 20px auto;
+}
+h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+p{
+    font-size: 20px;
+}
+input,
+textarea,
+label{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+input, textarea{
+    background-color: transparent;
+    border: 0 ;
+    border-bottom: 2px solid #e1e1e1;
+}
+
+input[type=submit]{
+    background-color: blue;
+    color: #fff;
+    font-size: 16px;
+    border-bottom: none;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    color: blue;
+    background-color: #fff;
+}
+input, textarea{
+    color:  black;
+    font-size: 18px ;
+    padding: 10px;
+}
+input:focus,
+textarea:focus{
+    outline: 1px solid black;
+}
