@@ -8,7 +8,7 @@ body{
     text-align: center;
 }
 .container{
-    max-width: 800px;
+    max-width: 600px;
     display: block;
     margin: 20px auto;
 }
@@ -26,7 +26,7 @@ textarea,
 label{
     display: block;
     margin: 0 auto;
-    width: 100%;
+    width: 75%;
 }
 input, textarea{
     background-color: transparent;
@@ -40,6 +40,8 @@ input[type=submit]{
     font-size: 16px;
     border-bottom: none;
     cursor: pointer;
+    border-radius: 30px;
+    margin-top: 5px;
 }
 input[type=submit]:hover{
     color: blue;
@@ -53,4 +55,7 @@ input, textarea{
 input:focus,
 textarea:focus{
     outline: 1px solid black;
+}
+.row{
+    margin-bottom: 10px;
 }
